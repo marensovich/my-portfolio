@@ -1,4 +1,4 @@
-# marensovich — portfolio
+# marensovich
 
 Личный сайт-портфолио. Vite + React 19 + TypeScript + Tailwind CSS v4.
 
