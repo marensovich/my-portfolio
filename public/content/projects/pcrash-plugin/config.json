@@ -11,7 +11,7 @@
     "discord",
     "minecraft"
   ],
-  "description": "Minecraft плагин для skymine.fun реализующий PCrash ивент.\nСистема краш-ивентов с уведомлениями в Discord через webhook,\nкастомными предметами. Зависимости: CommandAPI, ProtocolLib.\n",
+  "description": "Плагин краш-ивента PCrash для сервера skymine.fun.\n\nМеханика события: администратор запускает раунд → игроки делают ставки кастомными предметами → множитель растёт в реальном времени → каждый решает когда забрать выигрыш, рискуя потерять всё при краше. Результаты раунда публикуются в Discord через webhook.\n\nЗависимости: CommandAPI (команды с автодополнением), ProtocolLib (кастомный UI).",
   "githubLink": "https://github.com/marensovich/PCrash-Plugin",
   "published": true,
   "order": 12

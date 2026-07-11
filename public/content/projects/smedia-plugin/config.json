@@ -10,7 +10,7 @@
     "paper",
     "minecraft"
   ],
-  "description": "Minecraft плагин для сервера skymine.fun с системой промокодов.\nИгроки могут создавать промокоды (стоит PlayerPoints), другие активируют\nих и получают награды. YAML хранение данных.\n",
+  "description": "Система промокодов для Minecraft-сервера skymine.fun.\n\nИгрок А создаёт промокод за PlayerPoints (/promo create КОД), игрок Б активирует его и получает награду (/promo use КОД). Механика монетизирует серверную валюту и поощряет активность. Все данные хранятся в YAML-файлах без внешней БД.\n\nЗависимости: CommandAPI, PlayerPoints.",
   "githubLink": "https://github.com/marensovich/SmMedia-Plugin",
   "published": true,
   "order": 10
