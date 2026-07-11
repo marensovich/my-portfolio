@@ -18,7 +18,7 @@ export function Hero({ config }: Props) {
       <div className="flex items-center gap-5">
         {person.avatar ? (
           <img
-            src={person.avatar}
+            src={`${import.meta.env.BASE_URL}${person.avatar.replace(/^\//, '')}`}
             alt={`Аватар ${person.name}`}
             className="w-24 h-24 rounded-full object-cover border border-[var(--border)] shrink-0"
           />
