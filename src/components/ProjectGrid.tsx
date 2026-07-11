@@ -10,20 +10,29 @@ interface Props {
 
 export function ProjectGrid({ projects, onSelect }: Props) {
   const [activeCategory, setActiveCategory] = useState('Все')
+  const [sortYear, setSortYear] = useState<'desc' | 'asc'>('desc')
 
   const categories = useMemo(
     () => [...new Set(projects.map(p => p.category))],
     [projects]
   )
 
-  const filtered = useMemo(
-    () => activeCategory === 'Все' ? projects : projects.filter(p => p.category === activeCategory),
-    [projects, activeCategory]
-  )
+  const filtered = useMemo(() => {
+    const list = activeCategory === 'Все'
+      ? [...projects]
+      : projects.filter(p => p.category === activeCategory)
+    return list.sort((a, b) => sortYear === 'desc' ? b.year - a.year : a.year - b.year)
+  }, [projects, activeCategory, sortYear])
 
   return (
     <section aria-label="Проекты">
-      <FilterBar categories={categories} active={activeCategory} onChange={setActiveCategory} />
+      <FilterBar
+        categories={categories}
+        active={activeCategory}
+        onChange={setActiveCategory}
+        sortYear={sortYear}
+        onSortYear={() => setSortYear(s => s === 'desc' ? 'asc' : 'desc')}
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-[var(--border)] border border-[var(--border)] rounded-2xl overflow-hidden mb-20">
         {filtered.length === 0 ? (
           <p className="col-span-full text-center py-16 text-[var(--text-3)] text-sm bg-[var(--bg)]">
