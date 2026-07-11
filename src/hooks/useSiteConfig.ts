@@ -12,7 +12,7 @@ export function useSiteConfig(): SiteConfig | null {
   const [config, setConfig] = useState<SiteConfig | null>(null)
 
   useEffect(() => {
-    fetch('/content/site.json')
+    fetch(`${import.meta.env.BASE_URL}content/site.json`)
       .then(r => r.json())
       .then(setConfig)
       .catch(e => console.error('Failed to load site.json', e))
@@ -25,7 +25,7 @@ export function useThemeConfig(): ThemeConfig['theme'] {
   const [theme, setTheme] = useState<ThemeConfig['theme']>(DEFAULT_THEME)
 
   useEffect(() => {
-    fetch('/content/theme.json')
+    fetch(`${import.meta.env.BASE_URL}content/theme.json`)
       .then(r => r.json())
       .then((data: ThemeConfig) => setTheme(data.theme))
       .catch(() => {})

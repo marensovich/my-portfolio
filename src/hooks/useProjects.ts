@@ -14,14 +14,15 @@ export function useProjects(): Project[] {
 
   useEffect(() => {
     async function load() {
-      const slugs: string[] = await fetch('/content/projects.json').then(r => r.json())
+      const base = import.meta.env.BASE_URL
+      const slugs: string[] = await fetch(`${base}content/projects.json`).then(r => r.json())
 
       const results = await Promise.all(
         slugs.map(async slug => {
           try {
-            const config: ProjectConfig = await fetch(`/content/projects/${slug}/config.json`).then(r => r.json())
+            const config: ProjectConfig = await fetch(`${base}content/projects/${slug}/config.json`).then(r => r.json())
             if (!config.published) return null
-            const basePath = `/content/projects/${slug}`
+            const basePath = `${base}content/projects/${slug}`
             return {
               ...config,
               slug: config.slug || slug,
