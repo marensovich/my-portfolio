@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ChevronDown, ChevronUp, ExternalLink, ImageIcon } from 'lucide-react'
 import { SiGithub } from 'react-icons/si'
+import { RepoStats } from './RepoStats'
 import { Lightbox } from './Lightbox'
 import { getPlaceholderGradient } from '../utils/imageUtils'
 import type { Project } from '../types'
@@ -217,6 +218,9 @@ export function ProjectModal({ project, onClose }: Props) {
                   </AnimatePresence>
                 </div>
               )}
+
+              {/* Repo stats */}
+              {project.githubLink && <RepoStats githubLink={project.githubLink} />}
 
               {/* Links */}
               {(project.githubLink || project.externalLink) && (
