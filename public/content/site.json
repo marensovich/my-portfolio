@@ -1,0 +1,133 @@
+{
+  "person": {
+    "name": "Андрей",
+    "role": "Backend & Bots Developer",
+    "bio": "Java Spring Boot разработчик. Discord и Telegram боты,\nMinecraft-плагины, RAGEMP.\n",
+    "avatar": "/content/avatar.jpg"
+  },
+  "stats": [
+    {
+      "value": "2+",
+      "label": "года опыта"
+    },
+    {
+      "value": "19+",
+      "label": "проектов"
+    },
+    {
+      "value": "15+",
+      "label": "технологий"
+    },
+    {
+      "value": "100%",
+      "label": "удалённо"
+    }
+  ],
+  "about": [
+    "Backend-разработчик с фокусом на автоматизацию, чат-ботов и серверную логику. Пишу на Java и Python, работаю удалённо.",
+    "За два года реализовал более 19 проектов: Discord и Telegram боты на JDA и Aiogram, Minecraft-плагины на Spigot/Paper, REST API на Spring Boot с PostgreSQL и Redis.",
+    "Открыт к коммерческим заказам и командной работе — пишите в Telegram или Discord."
+  ],
+  "experience": [
+    {
+      "title": "Freelance Backend Developer",
+      "place": "Kwork / частные клиенты",
+      "from": "2025",
+      "description": "Разработка Telegram и Discord ботов под заказ, REST API, интеграции с внешними сервисами. RAGEMP-скрипты.",
+      "tags": [
+        "Java",
+        "Python",
+        "Spring Boot",
+        "NodeJS",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "Minecraft Plugin Developer",
+      "place": "SkyMine и другие сервера",
+      "from": "2022",
+      "to": "2024",
+      "description": "Написание плагинов для Spigot/Paper серверов: игровые механики, системы экономики.",
+      "tags": [
+        "Java",
+        "Spigot",
+        "Paper"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/marensovich"
+    },
+    {
+      "label": "Telegram",
+      "icon": "telegram",
+      "url": "https://t.me/marensovich"
+    },
+    {
+      "label": "Instagram",
+      "icon": "instagram",
+      "url": "https://instagram.com/marensovich"
+    },
+    {
+      "label": "Discord",
+      "icon": "discord",
+      "url": "https://discordapp.com/users/1273009813021790250"
+    }
+  ],
+  "stack": [
+    {
+      "category": "Языки",
+      "icon": "code2",
+      "accent": "#F97316",
+      "items": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Фреймворки",
+      "icon": "layers",
+      "accent": "#0A84FF",
+      "items": [
+        "Spring Boot",
+        "Node.js",
+        "Vite",
+        "Aiogram",
+        "JDA"
+      ]
+    },
+    {
+      "category": "Базы данных",
+      "icon": "database",
+      "accent": "#22D3EE",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "SQLite",
+        "Redis"
+      ]
+    },
+    {
+      "category": "DevOps",
+      "icon": "server",
+      "accent": "#10B981",
+      "items": [
+        "Docker",
+        "Linux",
+        "Git",
+        "Kubernetes",
+        "Ubuntu"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Андрей — Backend & Bots Developer",
+    "description": "Backend-разработчик. Java Spring Boot, Discord/Telegram боты, Minecraft.",
+    "ogImage": ""
+  }
+}

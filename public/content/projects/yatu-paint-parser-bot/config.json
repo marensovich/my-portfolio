@@ -1,0 +1,18 @@
+{
+  "title": "YatuPaintParserBot",
+  "slug": "yatu-paint-parser-bot",
+  "year": 2025,
+  "category": "Telegram Bots",
+  "tags": [
+    "java",
+    "spring-boot",
+    "telegram",
+    "bot",
+    "parser",
+    "excel"
+  ],
+  "description": "Spring Boot + Telegram бот-парсер для клиента Yatu Paint.\nПарсит бизнес-данные, генерирует Excel отчёты через Apache POI\nи отправляет их через Telegram. MariaDB + Docker Compose.\n",
+  "githubLink": "https://github.com/marensovich/YatuPaintParserBot",
+  "published": true,
+  "order": 21
+}

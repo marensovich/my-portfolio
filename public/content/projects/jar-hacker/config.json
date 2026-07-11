@@ -1,0 +1,17 @@
+{
+  "title": "JarHacker",
+  "slug": "jar-hacker",
+  "year": 2024,
+  "category": "Java",
+  "tags": [
+    "java",
+    "cli",
+    "tool",
+    "jar",
+    "bytecode"
+  ],
+  "description": "CLI утилита для модификации JAR файлов на лету без распаковки.\nКомпилирует новый Java код через JavaCompiler API и заменяет class-файлы\nвнутри JAR. Инструмент для исследования и модификации Java-приложений.\n",
+  "githubLink": "https://github.com/marensovich/JarHacker",
+  "published": true,
+  "order": 17
+}

@@ -1,0 +1,17 @@
+{
+  "title": "SkyMineFree-Plugin",
+  "slug": "skyminefree-plugin",
+  "year": 2023,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "bukkit",
+    "spigot",
+    "paper",
+    "minecraft"
+  ],
+  "description": "Minecraft плагин для skymine.fun с командой /free для получения\nежедневных бесплатных предметов и бонусов. Кулдаун система,\nнастраиваемые награды через конфиг.\n",
+  "githubLink": "https://github.com/marensovich/SkyMineFree-Plugin",
+  "published": true,
+  "order": 13
+}

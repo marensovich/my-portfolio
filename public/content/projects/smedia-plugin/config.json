@@ -1,0 +1,17 @@
+{
+  "title": "SmMedia-Plugin",
+  "slug": "smedia-plugin",
+  "year": 2023,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "bukkit",
+    "spigot",
+    "paper",
+    "minecraft"
+  ],
+  "description": "Minecraft плагин для сервера skymine.fun с системой промокодов.\nИгроки могут создавать промокоды (стоит PlayerPoints), другие активируют\nих и получают награды. YAML хранение данных.\n",
+  "githubLink": "https://github.com/marensovich/SmMedia-Plugin",
+  "published": true,
+  "order": 10
+}

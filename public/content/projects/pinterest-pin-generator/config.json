@@ -1,0 +1,17 @@
+{
+  "title": "PinterestPinGenerator",
+  "slug": "pinterest-pin-generator",
+  "year": 2024,
+  "category": "Services",
+  "tags": [
+    "java",
+    "python",
+    "spring",
+    "pinterest",
+    "generator"
+  ],
+  "description": "Мультимодульный проект автоматической генерации Pinterest пинов.\nJava Spring бэкенд, Python сервис генерации изображений и веб-интерфейс\nобъединены через Docker Compose.\n",
+  "githubLink": "https://github.com/marensovich/PinterestPinGenerator",
+  "published": true,
+  "order": 18
+}

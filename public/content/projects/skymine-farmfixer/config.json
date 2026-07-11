@@ -1,0 +1,17 @@
+{
+  "title": "SkyMine-FarmFixer",
+  "slug": "skymine-farmfixer",
+  "year": 2023,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "bukkit",
+    "spigot",
+    "paper",
+    "minecraft"
+  ],
+  "description": "Minecraft плагин для skymine.fun исправляющий механику ферм.\nИнтеграция с WorldGuard для применения фиксов в защищённых регионах.\nКоманда /farmfix reload для перезагрузки конфига без рестарта.\n",
+  "githubLink": "https://github.com/marensovich/SkyMine-FarmFixer",
+  "published": true,
+  "order": 15
+}

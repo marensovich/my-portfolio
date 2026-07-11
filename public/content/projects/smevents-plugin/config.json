@@ -1,0 +1,17 @@
+{
+  "title": "SMEvents-Plugin",
+  "slug": "smevents-plugin",
+  "year": 2023,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "bukkit",
+    "spigot",
+    "paper",
+    "minecraft"
+  ],
+  "description": "Minecraft плагин для skymine.fun с системой кастомных ивентов.\nЛут-таблицы, голограммы через DecentHolograms, интеграция с\nPlaceholderAPI и WorldGuard для региональных ограничений.\n",
+  "githubLink": "https://github.com/marensovich/SMEvents-Plugin",
+  "published": true,
+  "order": 11
+}

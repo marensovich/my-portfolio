@@ -1,0 +1,18 @@
+{
+  "title": "PCrash-Plugin",
+  "slug": "pcrash-plugin",
+  "year": 2023,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "bukkit",
+    "spigot",
+    "paper",
+    "discord",
+    "minecraft"
+  ],
+  "description": "Minecraft плагин для skymine.fun реализующий PCrash ивент.\nСистема краш-ивентов с уведомлениями в Discord через webhook,\nкастомными предметами. Зависимости: CommandAPI, ProtocolLib.\n",
+  "githubLink": "https://github.com/marensovich/PCrash-Plugin",
+  "published": true,
+  "order": 12
+}

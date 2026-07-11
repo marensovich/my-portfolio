@@ -1,0 +1,20 @@
+{
+  "title": "КИПФИН Backend",
+  "slug": "kipfin-backend",
+  "year": 2025,
+  "category": "Java",
+  "tags": [
+    "java",
+    "spring",
+    "spring-boot",
+    "spring-security",
+    "redis",
+    "jwt",
+    "rest-api"
+  ],
+  "description": "Backend электронного дневника для колледжа КИПФИН на Spring Boot.\n\nВозможности системы:\n— Аутентификация через JWT + Spring Security\n— Роли: Студент, Преподаватель, Администратор\n— Журнал оценок, итоговые оценки, посещаемость\n— Расписание занятий, домашние задания\n— Личные сообщения между пользователями\n— Уведомления через Telegram-бота\n— Загрузка и раздача файлов\n— REST API с версионированием (v1) для Web и Mobile клиентов\n— Redis для кэширования\n— Dotenv для управления конфигурацией\n",
+  "cover": "cover.png",
+  "githubLink": "https://github.com/marensovich/KIPFIN-BackEnd",
+  "published": true,
+  "order": 4
+}

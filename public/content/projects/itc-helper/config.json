@@ -1,0 +1,16 @@
+{
+  "title": "ITC Helper Bot",
+  "slug": "itc-helper",
+  "year": 2024,
+  "category": "Telegram Bots",
+  "tags": [
+    "java",
+    "spring-boot",
+    "telegram",
+    "bot"
+  ],
+  "description": "Spring Boot + Telegram бот-помощник для студентов колледжа КИПФИН (ITC).\nПредоставляет доступ к расписанию, объявлениям и другой учебной информации\nпрямо через Telegram. Сервисная архитектура с командными менеджерами.\n",
+  "githubLink": "https://github.com/marensovich/ITC_Helper",
+  "published": true,
+  "order": 14
+}

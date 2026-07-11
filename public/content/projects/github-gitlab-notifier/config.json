@@ -1,0 +1,27 @@
+{
+  "title": "GitHub & GitLab Notifier",
+  "slug": "github-gitlab-notifier",
+  "year": 2025,
+  "category": "Telegram Bots",
+  "tags": [
+    "go",
+    "telegram",
+    "bot",
+    "github",
+    "gitlab",
+    "webhook"
+  ],
+  "description": "Self-hosted Telegram-бот на Go для мониторинга GitHub и GitLab репозиториев.\n\nБот получает webhook-события и отправляет уведомления в Telegram-форум (Topics).\nДля каждого типа события автоматически создаётся отдельный топик.\n\nПоддерживаемые события:\n— GitHub: Push, Star (в разработке: PR, Issues, Fork, Release)\n— GitLab: Push, Merge Request, Issue, Pipeline (в разработке)\n\nОсобенности:\n— Один webhook-эндпоинт автоматически определяет платформу\n— SQLite для хранения состояния (pure Go)\n— Поддержка прокси для ограниченных сетей\n— Мультиязычность (EN / RU)\n",
+  "cover": "cover.png",
+  "mainPhotos": [
+    "main-1.png",
+    "main-2.png",
+    "main-3.png"
+  ],
+  "gallery": [
+    "main-4.png"
+  ],
+  "githubLink": "https://github.com/marensovich/GitHub-GitLab-Notifier",
+  "published": true,
+  "order": 3
+}

@@ -1,0 +1,18 @@
+{
+  "title": "PteroLib",
+  "slug": "pterolib",
+  "year": 2025,
+  "category": "Java",
+  "tags": [
+    "java",
+    "library",
+    "pterodactyl",
+    "api",
+    "rest",
+    "open-source"
+  ],
+  "description": "Java-библиотека для работы с Pterodactyl Panel — популярной панелью управления игровыми серверами.\n\nПредоставляет удобный клиент для Client API и Application API с типизированными DTO.\nПозволяет управлять серверами, пользователями и ресурсами через Java-код без ручной работы с HTTP.\n\nОсобенности:\n— Client API и Application API в едином интерфейсе\n— Типизированные DTO для всех ответов\n— Документация на русском и английском (Wiki)\n— MIT лицензия, открытый исходный код\n",
+  "githubLink": "https://github.com/marensovich/pterolib",
+  "published": true,
+  "order": 23
+}

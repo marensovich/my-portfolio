@@ -1,0 +1,17 @@
+{
+  "title": "KipFinBot",
+  "slug": "kipfin-bot",
+  "year": 2024,
+  "category": "Telegram Bots",
+  "tags": [
+    "java",
+    "jda",
+    "discord",
+    "bot",
+    "eljur"
+  ],
+  "description": "JDA Discord бот для КИПФИН интегрированный с электронным журналом Eljur.\nСтуденты могут получать оценки, расписание и академическую информацию\nпрямо через Discord. Поддержка групповых и личных команд.\n",
+  "githubLink": "https://github.com/marensovich/KipFinBot",
+  "published": true,
+  "order": 16
+}

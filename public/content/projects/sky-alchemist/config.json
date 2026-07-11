@@ -1,0 +1,18 @@
+{
+  "title": "SkyAlchemist",
+  "slug": "sky-alchemist",
+  "year": 2023,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "bukkit",
+    "spigot",
+    "paper",
+    "minecraft",
+    "gui"
+  ],
+  "description": "Minecraft плагин для сервера SkyMine — система алхимии с GUI-интерфейсом.\n\nИгроки открывают меню алхимика (/alchemist) и за определённую цену (PlayerPoints)\nскрещивают эффекты зелий, создавая уникальные комбинации.\n\nОсобенности:\n— Кастомный инвентарь-GUI для выбора и смешивания эффектов зелий\n— Стоимость настраивается через config.yml\n— Интеграция с PlayerPoints для списания валюты\n— Команда /alchemist reload для перезагрузки конфига\n",
+  "githubLink": "https://github.com/marensovich/SkyAlchemist",
+  "published": true,
+  "order": 24
+}

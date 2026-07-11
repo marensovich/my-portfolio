@@ -1,0 +1,18 @@
+{
+  "title": "kwork-ar-demo",
+  "slug": "kwork-ar-demo",
+  "year": 2024,
+  "category": "Frontend",
+  "tags": [
+    "typescript",
+    "react",
+    "vite",
+    "three.js",
+    "ar",
+    "mindar"
+  ],
+  "description": "AR прототип для мониторинга строительных площадок на Vite + React + TypeScript.\nИспользует MindAR + Three.js для распознавания геодезических меток через камеру\nи отображения 3D рамки с GPS координатами вокруг метки.\n",
+  "githubLink": "https://github.com/marensovich/kwork-ar-demo",
+  "published": true,
+  "order": 19
+}

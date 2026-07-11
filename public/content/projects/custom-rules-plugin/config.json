@@ -1,0 +1,26 @@
+{
+  "title": "CustomRulesPlugin",
+  "slug": "custom-rules-plugin",
+  "year": 2025,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "bukkit",
+    "spigot",
+    "paper",
+    "plugin"
+  ],
+  "description": "Плагин для Minecraft-серверов: при заходе игрока показывается диалог\nс правилами сервера, без принятия которых играть нельзя.\n\nПолностью настраиваемые сообщения, цвета и тексты правил через config.yml и rules.yml.\nПерезагрузка конфига без рестарта сервера — /rules reload.\nСистема прав: customrules.use и customrules.reload.\n",
+  "cover": "cover.png",
+  "mainPhotos": [
+    "main-1.jpg",
+    "main-2.jpg",
+    "main-3.jpg"
+  ],
+  "gallery": [
+    "extra-1.jpg"
+  ],
+  "githubLink": "https://github.com/marensovich/CustomRulesPlugin",
+  "published": true,
+  "order": 4
+}

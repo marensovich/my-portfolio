@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "accent": "#0A84FF",
+    "gradient": [
+      "#FF6B9D",
+      "#845EF7",
+      "#22D3EE"
+    ],
+    "glassOpacity": 0.08,
+    "darkModeDefault": true
+  }
+}

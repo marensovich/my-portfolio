@@ -1,0 +1,28 @@
+{
+  "title": "Police Checker Bot",
+  "slug": "police-checker-bot",
+  "year": 2025,
+  "category": "Telegram Bots",
+  "tags": [
+    "java",
+    "spring-boot",
+    "telegram",
+    "react",
+    "typescript",
+    "vite",
+    "maps"
+  ],
+  "description": "Сервис для отслеживания постов ДПС на дорогах — Telegram-бот + веб-приложение.\n\nПользователи сообщают о постах ДПС через Telegram-бот, другие водители\nполучают информацию о ближайших постах через карту или бота.\n\nВозможности:\n— Добавление поста ДПС с геолокацией через Telegram\n— Интерактивная карта активных постов\n— Радар ближайших постов\n— История всех отмеченных постов\n— Профиль пользователя и статистика\n— Панель администратора для модерации\n",
+  "cover": "1.jpg",
+  "mainPhotos": [
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+  ],
+  "gallery": [
+    "5.jpg"
+  ],
+  "githubLink": "https://github.com/marensovich/PoliceCheckerBot",
+  "published": true,
+  "order": 25
+}

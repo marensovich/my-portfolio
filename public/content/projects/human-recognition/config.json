@@ -1,0 +1,19 @@
+{
+  "title": "Human Recognition AI",
+  "slug": "human-recognition",
+  "year": 2025,
+  "category": "Python",
+  "tags": [
+    "python",
+    "opencv",
+    "mediapipe",
+    "yolo",
+    "deepface",
+    "ai",
+    "computer-vision"
+  ],
+  "description": "Приложение компьютерного зрения для распознавания людей в реальном времени через вебкамеру.\n\nРежимы работы (переключаются клавишами 1–7):\n— Face mesh: сетка из 468 точек лица\n— Руки: трекинг положения и жестов\n— Тело: оценка позы (pose estimation)\n— YOLO: детекция объектов (YOLOv8 / YOLO11)\n— DeepFace: идентификация конкретных людей по базе фотографий\n\nДля распознавания людей достаточно создать папку faces_db/ с фото.\n",
+  "githubLink": "https://github.com/marensovich/HumanRecognition",
+  "published": true,
+  "order": 22
+}
