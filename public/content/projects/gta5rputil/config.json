@@ -1,0 +1,28 @@
+{
+  "title": "GTA5RP Util",
+  "slug": "gta5rputil",
+  "year": 2025,
+  "category": "Desktop Apps",
+  "tags": [
+    "python",
+    "pyside6",
+    "qt",
+    "ocr",
+    "tesseract",
+    "automation",
+    "gta5rp"
+  ],
+  "description": "Десктопное приложение для автоматической проверки судимостей в GTA5RP.\n\nПрограмма с Qt-интерфейсом (тёмная тема, боковая навигация) сама открывает панель игры, вводит номера паспортов, распознаёт таблицу результатов через OCR и сортирует по категориям (АК / УК / оба). Поиск шаблонов реализован без OpenCV — через numpy (FFT + интегральное изображение), что сэкономило ~85 МБ в размере exe. Во время прогона над игрой висит оверлей с прогрессом и оценкой времени.",
+  "cover": "1.png",
+  "mainPhotos": [
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+  ],
+  "gallery": [
+    "5.jpg"
+  ],
+  "githubLink": "https://github.com/marensovich/GTA5RPUtil",
+  "published": true,
+  "order": 1
+}
