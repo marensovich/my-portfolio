@@ -9,7 +9,7 @@ interface Props {
 }
 
 export function ProjectGrid({ projects, onSelect }: Props) {
-  const [activeCategory, setActiveCategory] = useState('Все')
+  const [activeCategory, setActiveCategory] = useState('All')
   const [sortYear, setSortYear] = useState<'desc' | 'asc'>('desc')
 
   const categories = useMemo(
@@ -18,14 +18,14 @@ export function ProjectGrid({ projects, onSelect }: Props) {
   )
 
   const filtered = useMemo(() => {
-    const list = activeCategory === 'Все'
+    const list = activeCategory === 'All'
       ? [...projects]
       : projects.filter(p => p.category === activeCategory)
     return list.sort((a, b) => sortYear === 'desc' ? b.year - a.year : a.year - b.year)
   }, [projects, activeCategory, sortYear])
 
   return (
-    <section aria-label="Проекты">
+    <section aria-label="Projects">
       <FilterBar
         categories={categories}
         active={activeCategory}
@@ -36,7 +36,7 @@ export function ProjectGrid({ projects, onSelect }: Props) {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-[var(--border)] border border-[var(--border)] rounded-2xl overflow-hidden mb-20">
         {filtered.length === 0 ? (
           <p className="col-span-full text-center py-16 text-[var(--text-3)] text-sm bg-[var(--bg)]">
-            Нет проектов в этой категории
+            No projects in this category
           </p>
         ) : (
           filtered.map((project, i) => (

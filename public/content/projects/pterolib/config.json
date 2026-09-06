@@ -11,7 +11,7 @@
     "rest",
     "open-source"
   ],
-  "description": "Java-библиотека для работы с Pterodactyl Panel — популярной панелью управления игровыми серверами.\n\nПредоставляет удобный клиент для Client API и Application API с типизированными DTO.\nПозволяет управлять серверами, пользователями и ресурсами через Java-код без ручной работы с HTTP.\n\nОсобенности:\n— Client API и Application API в едином интерфейсе\n— Типизированные DTO для всех ответов\n— Документация на русском и английском (Wiki)\n— MIT лицензия, открытый исходный код\n",
+  "description": "A Java library for working with Pterodactyl Panel — a popular game server management panel.\n\nProvides a convenient client for the Client API and Application API with typed DTOs.\nLets you manage servers, users and resources through Java code without manual HTTP work.\n\nFeatures:\n— Client API and Application API in a single interface\n— Typed DTOs for all responses\n— Documentation in Russian and English (Wiki)\n— MIT license, open source\n",
   "githubLink": "https://github.com/marensovich/pterolib",
   "published": true,
   "order": 23

@@ -11,7 +11,7 @@
     "gitlab",
     "webhook"
   ],
-  "description": "Self-hosted Telegram-бот на Go для мониторинга GitHub и GitLab репозиториев.\n\nБот получает webhook-события и отправляет уведомления в Telegram-форум (Topics).\nДля каждого типа события автоматически создаётся отдельный топик.\n\nПоддерживаемые события:\n— GitHub: Push, Star (в разработке: PR, Issues, Fork, Release)\n— GitLab: Push, Merge Request, Issue, Pipeline (в разработке)\n\nОсобенности:\n— Один webhook-эндпоинт автоматически определяет платформу\n— SQLite для хранения состояния (pure Go)\n— Поддержка прокси для ограниченных сетей\n— Мультиязычность (EN / RU)\n",
+  "description": "A self-hosted Telegram bot written in Go for monitoring GitHub and GitLab repositories.\n\nThe bot receives webhook events and sends notifications to a Telegram forum (Topics).\nA separate topic is automatically created for each event type.\n\nSupported events:\n— GitHub: Push, Star (in progress: PR, Issues, Fork, Release)\n— GitLab: Push, Merge Request, Issue, Pipeline (in progress)\n\nFeatures:\n— A single webhook endpoint automatically detects the platform\n— SQLite for state storage (pure Go)\n— Proxy support for restricted networks\n— Multi-language support (EN / RU)\n",
   "cover": "cover.png",
   "mainPhotos": [
     "main-1.png",

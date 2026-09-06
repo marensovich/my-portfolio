@@ -84,7 +84,7 @@ export function ProjectModal({ project, onClose }: Props) {
                 ref={closeRef}
                 className="w-8 h-8 flex items-center justify-center rounded-lg border border-[var(--border)] text-[var(--text-2)] hover:text-[var(--text-1)] hover:bg-[var(--surface)] hover:border-[var(--border-hover)] transition-colors cursor-pointer"
                 onClick={onClose}
-                aria-label="Закрыть проект"
+                aria-label="Close project"
               >
                 <X size={16} />
               </button>
@@ -134,7 +134,7 @@ export function ProjectModal({ project, onClose }: Props) {
                       className={`group relative overflow-hidden cursor-pointer bg-[var(--surface)]${i === 0 ? ' col-span-2' : ''}`}
                       role="button"
                       tabIndex={0}
-                      aria-label={`Открыть фото ${i + 1}`}
+                      aria-label={`Open photo ${i + 1}`}
                       onClick={() => setLightboxIndex(i)}
                       onKeyDown={e => {
                         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setLightboxIndex(i) }
@@ -143,7 +143,7 @@ export function ProjectModal({ project, onClose }: Props) {
                       {!photoErrors[src] ? (
                         <img
                           src={src}
-                          alt={`${project.title} — фото ${i + 1}`}
+                          alt={`${project.title} — photo ${i + 1}`}
                           className="w-full aspect-video object-contain block transition-transform duration-200 group-hover:scale-[1.02]"
                           loading="lazy"
                           onError={() => imgErr(src)}
@@ -165,7 +165,7 @@ export function ProjectModal({ project, onClose }: Props) {
                     aria-expanded={galleryOpen}
                   >
                     {galleryOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-                    {galleryOpen ? 'Скрыть фото' : `Ещё фото (${project.galleryImages.length})`}
+                    {galleryOpen ? 'Hide photos' : `More photos (${project.galleryImages.length})`}
                   </button>
 
                   <AnimatePresence>
@@ -184,7 +184,7 @@ export function ProjectModal({ project, onClose }: Props) {
                               className="relative overflow-hidden cursor-pointer aspect-square bg-[var(--surface)] hover:opacity-85 transition-opacity"
                               role="button"
                               tabIndex={0}
-                              aria-label={`Открыть фото ${i + 1}`}
+                              aria-label={`Open photo ${i + 1}`}
                               onClick={() => setLightboxIndex(mainSrcs.length + i)}
                               onKeyDown={e => {
                                 if (e.key === 'Enter' || e.key === ' ') {
@@ -196,7 +196,7 @@ export function ProjectModal({ project, onClose }: Props) {
                               {!photoErrors[img] ? (
                                 <img
                                   src={img}
-                                  alt={`Галерея — фото ${i + 1}`}
+                                  alt={`Gallery — photo ${i + 1}`}
                                   className="w-full h-full object-cover block"
                                   loading="lazy"
                                   onError={() => imgErr(img)}
@@ -244,7 +244,7 @@ export function ProjectModal({ project, onClose }: Props) {
                       className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-[var(--border)] text-[var(--text-1)] text-[13px] font-medium no-underline hover:bg-[var(--surface)] hover:border-[var(--border-hover)] transition-colors"
                     >
                       <ExternalLink size={15} />
-                      Открыть проект
+                      Open project
                     </a>
                   )}
                 </div>

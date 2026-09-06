@@ -9,7 +9,7 @@
     "telegram",
     "bot"
   ],
-  "description": "Spring Boot + Telegram бот-помощник для студентов колледжа КИПФИН (ITC).\nПредоставляет доступ к расписанию, объявлениям и другой учебной информации\nпрямо через Telegram. Сервисная архитектура с командными менеджерами.\n",
+  "description": "A Spring Boot + Telegram helper bot for students of the KIPFIN college (ITC).\nProvides access to the schedule, announcements and other academic information\ndirectly through Telegram. Service-based architecture with command managers.\n",
   "githubLink": "https://github.com/marensovich/ITC_Helper",
   "published": true,
   "order": 14

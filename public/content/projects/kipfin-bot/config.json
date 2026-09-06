@@ -10,7 +10,7 @@
     "bot",
     "eljur"
   ],
-  "description": "Discord-бот для студентов КИПФИН колледжа. Подключается к электронному журналу Eljur и выдаёт оценки с расписанием прямо в Discord — без входа на сайт журнала.\n\nПоддерживает групповые команды (информация для всей группы) и личные (только ваши данные). Реализован на JDA (Java Discord API) с интеграцией Eljur API.",
+  "description": "A Discord bot for students of KIPFIN college. Connects to the Eljur electronic gradebook and delivers grades and the schedule right in Discord — without logging into the gradebook website.\n\nSupports group commands (information for the whole group) and personal ones (only your own data). Built on JDA (Java Discord API) with Eljur API integration.",
   "githubLink": "https://github.com/marensovich/KipFinBot",
   "published": true,
   "order": 16

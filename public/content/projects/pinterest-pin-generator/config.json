@@ -10,7 +10,7 @@
     "pinterest",
     "generator"
   ],
-  "description": "Многомодульный сервис автоматической генерации и публикации пинов в Pinterest.\n\nТри компонента работают вместе через Docker Compose:\n— pinterest-core (Java / Spring Boot) — REST API и бизнес-логика\n— pinterest-imagegenerator (Python) — генерация изображений для пинов\n— pinterest-site (HTML/CSS/JS) — веб-интерфейс управления\n\nЗапуск всего одной командой: docker compose up --build.",
+  "description": "A multi-module service for automatically generating and publishing Pinterest pins.\n\nThree components work together via Docker Compose:\n— pinterest-core (Java / Spring Boot) — REST API and business logic\n— pinterest-imagegenerator (Python) — image generation for pins\n— pinterest-site (HTML/CSS/JS) — web management interface\n\nEverything starts with a single command: docker compose up --build.",
   "githubLink": "https://github.com/marensovich/PinterestPinGenerator",
   "published": true,
   "order": 18

@@ -10,7 +10,7 @@
     "jar",
     "bytecode"
   ],
-  "description": "CLI-инструмент для модификации Java-приложений прямо внутри JAR-файла.\n\nСтандартный подход: распаковать → скомпилировать → запаковать. JarHacker делает это за один шаг — принимает .java файл, компилирует через JavaCompiler API и вшивает .class прямо в архив без распаковки.\n\nПолезно для патча сторонних библиотек, отладки без исходников и исследования Java-приложений.",
+  "description": "A CLI tool for modifying Java applications directly inside a JAR file.\n\nThe standard approach is: unpack → compile → repack. JarHacker does this in one step — it takes a .java file, compiles it via the JavaCompiler API, and injects the .class directly into the archive without unpacking.\n\nUseful for patching third-party libraries, debugging without sources, and exploring Java applications.",
   "githubLink": "https://github.com/marensovich/JarHacker",
   "published": true,
   "order": 17

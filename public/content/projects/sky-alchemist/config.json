@@ -11,7 +11,7 @@
     "minecraft",
     "gui"
   ],
-  "description": "Плагин алхимии для сервера SkyMine с GUI-интерфейсом.\n\nИгроки открывают меню /alchemist, выбирают рецепт комбинации эффектов зелий и оплачивают крафт серверной валютой PlayerPoints. Все рецепты и цены настраиваются в config.yml и применяются через /alchemist reload — без рестарта сервера.",
+  "description": "An alchemy plugin for the SkyMine server with a GUI interface.\n\nPlayers open the /alchemist menu, choose a recipe combining potion effects, and pay for crafting with the server currency PlayerPoints. All recipes and prices are configured in config.yml and applied via /alchemist reload — without restarting the server.",
   "githubLink": "https://github.com/marensovich/SkyAlchemist",
   "published": true,
   "order": 24

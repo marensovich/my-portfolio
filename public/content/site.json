@@ -1,39 +1,39 @@
 {
   "person": {
-    "name": "Андрей",
+    "name": "Andrey",
     "role": "Backend & Bots Developer",
-    "bio": "Java Spring Boot разработчик. Discord и Telegram боты,\nMinecraft-плагины, RAGEMP.\n",
+    "bio": "Java Spring Boot developer. Discord and Telegram bots,\nMinecraft plugins, RAGEMP.\n",
     "avatar": "/content/avatar.jpg"
   },
   "stats": [
     {
       "value": "2+",
-      "label": "года опыта"
+      "label": "years of experience"
     },
     {
       "value": "19+",
-      "label": "проектов"
+      "label": "projects"
     },
     {
       "value": "15+",
-      "label": "технологий"
+      "label": "technologies"
     },
     {
       "value": "100%",
-      "label": "удалённо"
+      "label": "remote"
     }
   ],
   "about": [
-    "Backend-разработчик с фокусом на автоматизацию, чат-ботов и серверную логику. Пишу на Java и Python, работаю удалённо.",
-    "За два года реализовал более 19 проектов: Discord и Telegram боты на JDA и Aiogram, Minecraft-плагины на Spigot/Paper, REST API на Spring Boot с PostgreSQL и Redis.",
-    "Открыт к коммерческим заказам и командной работе — пишите в Telegram или Discord."
+    "Backend developer focused on automation, chatbots and server-side logic. I write in Java and Python, and work remotely.",
+    "Over the past two years I've shipped 19+ projects: Discord and Telegram bots on JDA and Aiogram, Minecraft plugins on Spigot/Paper, REST APIs on Spring Boot with PostgreSQL and Redis.",
+    "Open to commercial work and team collaboration — reach out on Telegram or Discord."
   ],
   "experience": [
     {
       "title": "Freelance Backend Developer",
-      "place": "Kwork / частные клиенты",
+      "place": "Kwork / private clients",
       "from": "2025",
-      "description": "Разработка Telegram и Discord ботов под заказ, REST API, интеграции с внешними сервисами. RAGEMP-скрипты.",
+      "description": "Custom Telegram and Discord bot development, REST APIs, integrations with external services. RAGEMP scripts.",
       "tags": [
         "Java",
         "Python",
@@ -43,11 +43,23 @@
       ]
     },
     {
+      "title": "Backend / Plugin Developer",
+      "place": "ColombinoMC — Minecraft",
+      "from": "2026",
+      "description": "Backend and plugin development for ColombinoMC, a creative building server for Minecraft (build.colombinomc.com) aimed at builders of all skill levels. Spigot/Paper plugins and server-side logic supporting the creative gameplay and community.",
+      "tags": [
+        "Java",
+        "Spigot",
+        "Paper",
+        "Minecraft"
+      ]
+    },
+    {
       "title": "Minecraft Plugin Developer",
-      "place": "SkyMine и другие сервера",
+      "place": "SkyMine and other servers",
       "from": "2022",
       "to": "2024",
-      "description": "Написание плагинов для Spigot/Paper серверов: игровые механики, системы экономики.",
+      "description": "Wrote plugins for Spigot/Paper servers: game mechanics, economy systems.",
       "tags": [
         "Java",
         "Spigot",
@@ -79,7 +91,7 @@
   ],
   "stack": [
     {
-      "category": "Языки",
+      "category": "Languages",
       "icon": "code2",
       "accent": "#F97316",
       "items": [
@@ -90,7 +102,7 @@
       ]
     },
     {
-      "category": "Фреймворки",
+      "category": "Frameworks",
       "icon": "layers",
       "accent": "#0A84FF",
       "items": [
@@ -102,7 +114,7 @@
       ]
     },
     {
-      "category": "Базы данных",
+      "category": "Databases",
       "icon": "database",
       "accent": "#22D3EE",
       "items": [
@@ -126,8 +138,8 @@
     }
   ],
   "seo": {
-    "title": "Андрей — Backend & Bots Developer",
-    "description": "Backend-разработчик. Java Spring Boot, Discord/Telegram боты, Minecraft.",
+    "title": "Andrey — Backend & Bots Developer",
+    "description": "Backend developer. Java Spring Boot, Discord/Telegram bots, Minecraft.",
     "ogImage": ""
   }
 }

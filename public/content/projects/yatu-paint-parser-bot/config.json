@@ -11,7 +11,7 @@
     "parser",
     "excel"
   ],
-  "description": "Spring Boot + Telegram бот-парсер для клиента Yatu Paint.\nПарсит бизнес-данные, генерирует Excel отчёты через Apache POI\nи отправляет их через Telegram. MariaDB + Docker Compose.\n",
+  "description": "A Spring Boot + Telegram parser bot for the Yatu Paint client.\nParses business data, generates Excel reports via Apache POI,\nand sends them through Telegram. MariaDB + Docker Compose.\n",
   "githubLink": "https://github.com/marensovich/YatuPaintParserBot",
   "published": true,
   "order": 21

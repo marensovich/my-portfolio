@@ -14,12 +14,12 @@ export function Hero({ config }: Props) {
     .slice(0, 2)
 
   return (
-    <section className="pt-16 pb-12 sm:pt-[72px] sm:pb-14 flex flex-col gap-5" aria-label="О себе">
+    <section className="pt-16 pb-12 sm:pt-[72px] sm:pb-14 flex flex-col gap-5" aria-label="About me">
       <div className="flex items-center gap-5">
         {person.avatar ? (
           <img
             src={`${import.meta.env.BASE_URL}${person.avatar.replace(/^\//, '')}`}
-            alt={`Аватар ${person.name}`}
+            alt={`Avatar of ${person.name}`}
             className="w-24 h-24 rounded-full object-cover border border-[var(--border)] shrink-0"
           />
         ) : (

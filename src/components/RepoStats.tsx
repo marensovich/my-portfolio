@@ -14,7 +14,7 @@ function parseGitHubUrl(url: string): { owner: string; repo: string } | null {
 
 function formatDate(iso: string): string {
   if (!iso) return '—'
-  return new Intl.DateTimeFormat('ru-RU', { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(iso))
+  return new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(iso))
 }
 
 async function fetchBranchStat(owner: string, repo: string, branch: string): Promise<BranchStat | null> {
@@ -72,7 +72,7 @@ export function RepoStats({ githubLink }: Props) {
             .sort((a, b) => b.commits - a.commits)
         )
       } catch {
-        // silent fail — статистика необязательна
+        // silent fail — stats are optional
       } finally {
         setLoading(false)
       }
@@ -85,7 +85,7 @@ export function RepoStats({ githubLink }: Props) {
     return (
       <div className="flex items-center gap-2 text-xs text-[var(--text-3)] animate-pulse">
         <GitBranch size={12} />
-        Загрузка статистики...
+        Loading stats...
       </div>
     )
   }
@@ -103,7 +103,7 @@ export function RepoStats({ githubLink }: Props) {
           <code className="font-mono text-[var(--text-1)] font-medium">{s.name}</code>
           <span className="text-[var(--border-hover)]">·</span>
           <GitCommitHorizontal size={12} className="text-[var(--text-3)] shrink-0" />
-          <span className="text-[var(--text-2)]">{s.commits.toLocaleString('ru')} коммитов</span>
+          <span className="text-[var(--text-2)]">{s.commits.toLocaleString('en')} commits</span>
           <span className="text-[var(--border-hover)]">·</span>
           <Clock size={12} className="text-[var(--text-3)] shrink-0" />
           <span className="text-[var(--text-3)]">{formatDate(s.lastCommit)}</span>

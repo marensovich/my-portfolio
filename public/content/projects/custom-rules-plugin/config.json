@@ -10,7 +10,7 @@
     "paper",
     "plugin"
   ],
-  "description": "Плагин для Minecraft-серверов: при заходе игрока показывается диалог\nс правилами сервера, без принятия которых играть нельзя.\n\nПолностью настраиваемые сообщения, цвета и тексты правил через config.yml и rules.yml.\nПерезагрузка конфига без рестарта сервера — /rules reload.\nСистема прав: customrules.use и customrules.reload.\n",
+  "description": "A plugin for Minecraft servers: when a player joins, a dialog with the server rules is shown,\nand play is blocked until the rules are accepted.\n\nFully configurable messages, colors and rule texts via config.yml and rules.yml.\nReload the config without restarting the server — /rules reload.\nPermission system: customrules.use and customrules.reload.\n",
   "cover": "cover.png",
   "mainPhotos": [
     "main-1.jpg",

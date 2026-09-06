@@ -8,9 +8,9 @@ export function Experience({ entries }: Props) {
   if (!entries.length) return null
 
   return (
-    <section className="py-10" aria-label="Опыт">
+    <section className="py-10" aria-label="Experience">
       <p className="text-[11px] font-semibold tracking-[0.1em] uppercase text-[var(--text-3)] mb-6">
-        Опыт
+        Experience
       </p>
       <div className="flex flex-col">
         {entries.map((entry, i) => (
@@ -30,7 +30,7 @@ export function Experience({ entries }: Props) {
                   {entry.title}
                 </span>
                 <span className="text-xs font-mono text-[var(--text-3)] shrink-0">
-                  {entry.from} — {entry.to ?? 'н.в.'}
+                  {entry.from} — {entry.to ?? 'present'}
                 </span>
               </div>
 

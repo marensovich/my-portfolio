@@ -42,7 +42,7 @@ export function Lightbox({ images, startIndex, projectSlug, onClose }: Props) {
         className="fixed inset-0 z-[200] flex items-center justify-center bg-black/90"
         role="dialog"
         aria-modal="true"
-        aria-label="Просмотр фотографии"
+        aria-label="Photo viewer"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -61,7 +61,7 @@ export function Lightbox({ images, startIndex, projectSlug, onClose }: Props) {
           {!imgError[current] ? (
             <img
               src={src}
-              alt={`Фото ${current + 1} из ${images.length}`}
+              alt={`Photo ${current + 1} of ${images.length}`}
               className="max-w-[90vw] max-h-[85dvh] object-contain rounded-xl"
               onError={() => setImgError(prev => ({ ...prev, [current]: true }))}
             />
@@ -79,14 +79,14 @@ export function Lightbox({ images, startIndex, projectSlug, onClose }: Props) {
             <button
               className={`${btnCls} fixed left-5 top-1/2 -translate-y-1/2 z-[201]`}
               onClick={e => { e.stopPropagation(); prev() }}
-              aria-label="Предыдущее фото"
+              aria-label="Previous photo"
             >
               <ChevronLeft size={22} />
             </button>
             <button
               className={`${btnCls} fixed right-5 top-1/2 -translate-y-1/2 z-[201]`}
               onClick={e => { e.stopPropagation(); next() }}
-              aria-label="Следующее фото"
+              aria-label="Next photo"
             >
               <ChevronRight size={22} />
             </button>
@@ -96,7 +96,7 @@ export function Lightbox({ images, startIndex, projectSlug, onClose }: Props) {
         <button
           className={`${btnCls} fixed top-5 right-5 z-[201]`}
           onClick={onClose}
-          aria-label="Закрыть просмотр"
+          aria-label="Close viewer"
         >
           <X size={20} />
         </button>

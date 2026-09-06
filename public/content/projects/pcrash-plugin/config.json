@@ -11,7 +11,7 @@
     "discord",
     "minecraft"
   ],
-  "description": "Плагин краш-ивента PCrash для сервера skymine.fun.\n\nМеханика события: администратор запускает раунд → игроки делают ставки кастомными предметами → множитель растёт в реальном времени → каждый решает когда забрать выигрыш, рискуя потерять всё при краше. Результаты раунда публикуются в Discord через webhook.\n\nЗависимости: CommandAPI (команды с автодополнением), ProtocolLib (кастомный UI).",
+  "description": "A PCrash crash-event plugin for the skymine.fun server.\n\nEvent mechanic: an admin starts a round → players place bets using custom items → the multiplier grows in real time → each player decides when to cash out, risking losing everything on a crash. Round results are published to Discord via webhook.\n\nDependencies: CommandAPI (commands with autocomplete), ProtocolLib (custom UI).",
   "githubLink": "https://github.com/marensovich/PCrash-Plugin",
   "published": true,
   "order": 12

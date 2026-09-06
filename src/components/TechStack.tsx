@@ -14,9 +14,9 @@ interface Props {
 
 export function TechStack({ stack }: Props) {
   return (
-    <section className="py-10" aria-label="Технологии">
+    <section className="py-10" aria-label="Technologies">
       <p className="text-[11px] font-semibold tracking-[0.1em] uppercase text-[var(--text-3)] mb-5">
-        Стек
+        Stack
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-[var(--border)] border border-[var(--border)] rounded-xl overflow-hidden">
         {stack.map(cat => {

@@ -6,9 +6,9 @@ export function About({ paragraphs }: Props) {
   if (!paragraphs.length) return null
 
   return (
-    <section className="py-10" aria-label="Обо мне">
+    <section className="py-10" aria-label="About me">
       <p className="text-[11px] font-semibold tracking-[0.1em] uppercase text-[var(--text-3)] mb-5">
-        Обо мне
+        About
       </p>
       <div className="flex flex-col gap-4 max-w-[640px]">
         {paragraphs.map((text, i) => (

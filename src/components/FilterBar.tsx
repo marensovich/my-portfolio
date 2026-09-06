@@ -14,7 +14,7 @@ export function FilterBar({ categories, active, onChange, sortYear, onSortYear }
   return (
     <div className="pt-8 pb-5 flex items-center justify-between gap-4">
       <div className="flex flex-wrap gap-1">
-        {['Все', ...categories].map(cat => (
+        {['All', ...categories].map(cat => (
           <button
             key={cat}
             className={`${btnBase} ${active === cat ? btnActive : btnInactive}`}
@@ -29,9 +29,9 @@ export function FilterBar({ categories, active, onChange, sortYear, onSortYear }
       <button
         className={`${btnBase} ${btnInactive} shrink-0 flex items-center gap-1.5`}
         onClick={onSortYear}
-        title={sortYear === 'desc' ? 'Сначала старые' : 'Сначала новые'}
+        title={sortYear === 'desc' ? 'Oldest first' : 'Newest first'}
       >
-        {sortYear === 'desc' ? '↓' : '↑'} Год
+        {sortYear === 'desc' ? '↓' : '↑'} Year
       </button>
     </div>
   )

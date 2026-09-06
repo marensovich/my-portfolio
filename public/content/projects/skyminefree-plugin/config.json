@@ -10,7 +10,7 @@
     "paper",
     "minecraft"
   ],
-  "description": "Ежедневные бесплатные награды для игроков skymine.fun.\n\nКоманда /free выдаёт набор предметов один раз в 24 часа. Кулдаун привязан к игроку и сохраняется между перезаходами — при повторной попытке игрок видит оставшееся время. Список наград и сообщения настраиваются в config.yml.",
+  "description": "Daily free rewards for skymine.fun players.\n\nThe /free command grants a set of items once every 24 hours. The cooldown is tied to the player and persists across rejoins — on a repeat attempt, the player sees the remaining time. The reward list and messages are configured in config.yml.",
   "githubLink": "https://github.com/marensovich/SkyMineFree-Plugin",
   "published": true,
   "order": 13

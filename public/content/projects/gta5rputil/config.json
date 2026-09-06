@@ -12,7 +12,7 @@
     "automation",
     "gta5rp"
   ],
-  "description": "Десктопное приложение для автоматической проверки судимостей в GTA5RP.\n\nПрограмма с Qt-интерфейсом (тёмная тема, боковая навигация) сама открывает панель игры, вводит номера паспортов, распознаёт таблицу результатов через OCR и сортирует по категориям (АК / УК / оба). Поиск шаблонов реализован без OpenCV — через numpy (FFT + интегральное изображение), что сэкономило ~85 МБ в размере exe. Во время прогона над игрой висит оверлей с прогрессом и оценкой времени.",
+  "description": "A desktop application for automatically checking criminal records in GTA5RP.\n\nThe app has a Qt interface (dark theme, sidebar navigation) that opens the in-game panel itself, enters passport numbers, recognizes the results table via OCR, and sorts them by category (AK / UK / both). Template matching is implemented without OpenCV — using numpy (FFT + integral image), which saved ~85 MB in the exe size. An overlay with progress and an ETA is shown on top of the game during the run.",
   "cover": "1.png",
   "mainPhotos": [
     "2.jpg",

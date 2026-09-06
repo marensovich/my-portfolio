@@ -12,7 +12,7 @@
     "vite",
     "maps"
   ],
-  "description": "Совместный сервис мониторинга постов ДПС — Telegram-бот + веб-приложение.\n\nПользователи сообщают о постах через бота, другие водители видят их на интерактивной карте или спрашивают бота о ближайших. Точность зависит от активности сообщества.\n\nВозможности бота: отправить геолокацию поста, узнать посты рядом, история репортов, личный профиль.\nВеб-приложение: карта, радар в радиусе, полная история, панель администратора.",
+  "description": "A crowdsourced traffic-police checkpoint monitoring service — a Telegram bot + web app.\n\nUsers report checkpoints via the bot, other drivers see them on an interactive map or ask the bot about nearby ones. Accuracy depends on community activity.\n\nBot features: send a checkpoint's location, find nearby checkpoints, report history, personal profile.\nWeb app: map, radius radar, full history, admin panel.",
   "cover": "1.jpg",
   "mainPhotos": [
     "2.jpg",

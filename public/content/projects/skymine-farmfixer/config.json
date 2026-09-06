@@ -10,7 +10,7 @@
     "paper",
     "minecraft"
   ],
-  "description": "Патч фарм-механик для сервера skymine.fun с интеграцией WorldGuard.\n\nНа экономических серверах автофермы — постоянный источник дисбаланса: игроки находят эксплойты в механике роста и дропа. Плагин закрывает такие дыры точечно — только в регионах WorldGuard, не трогая ванильную механику за их границами. Конфиг обновляется через /farmfix reload без рестарта.",
+  "description": "A farm-mechanic patch for the skymine.fun server with WorldGuard integration.\n\nOn economy servers, auto-farms are a constant source of imbalance: players find exploits in growth and drop mechanics. The plugin closes such loopholes surgically — only within WorldGuard regions, leaving vanilla mechanics untouched outside their borders. The config updates via /farmfix reload without a restart.",
   "githubLink": "https://github.com/marensovich/SkyMine-FarmFixer",
   "published": true,
   "order": 15

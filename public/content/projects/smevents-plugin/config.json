@@ -10,7 +10,7 @@
     "paper",
     "minecraft"
   ],
-  "description": "Система кастомных ивентов для skymine.fun с голограммами и лут-таблицами.\n\nАдминистраторы создают события с индивидуальными наградами, плагин отображает их через голограммы DecentHolograms и отдаёт данные в PlaceholderAPI для использования в других плагинах. Поддерживает ограничение ивентов по регионам WorldGuard.\n\nЗависимости: DecentHolograms, PlaceholderAPI, WorldGuard.",
+  "description": "A custom events system for skymine.fun with holograms and loot tables.\n\nAdmins create events with individual rewards, the plugin displays them via DecentHolograms holograms and exposes data to PlaceholderAPI for use in other plugins. Supports restricting events to WorldGuard regions.\n\nDependencies: DecentHolograms, PlaceholderAPI, WorldGuard.",
   "githubLink": "https://github.com/marensovich/SMEvents-Plugin",
   "published": true,
   "order": 11

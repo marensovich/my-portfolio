@@ -9,7 +9,6 @@ interface Props {
 
 const CATEGORY_INITIALS: Record<string, string> = {
   'Minecraft': 'MC',
-  'Боты': 'BOT',
   'Java': 'JV',
   'Python': 'PY',
   'Frontend': 'FE',
@@ -35,7 +34,7 @@ export function ProjectCard({ project, index, onClick }: Props) {
       className="bg-[var(--bg)] p-6 flex flex-col gap-3 min-h-[180px] cursor-pointer hover:bg-[var(--bg-subtle)] active:bg-[var(--surface)] transition-colors card-enter focus-visible:outline focus-visible:outline-2 focus-visible:outline-[var(--accent)] focus-visible:outline-offset-[-2px]"
       role="button"
       tabIndex={0}
-      aria-label={`Открыть проект: ${project.title}`}
+      aria-label={`Open project: ${project.title}`}
       onClick={onClick}
       onKeyDown={handleKey}
       style={{ animationDelay: `${index * 40}ms` }}

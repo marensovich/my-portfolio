@@ -12,7 +12,7 @@
     "ai",
     "computer-vision"
   ],
-  "description": "Компьютерное зрение в реальном времени через обычную веб-камеру. Три фреймворка в одном инструменте — переключение режимов без перезапуска:\n\n1 — меш лица (468 точек), 2 — трекинг рук, 3 — поза тела,\n4 — всё MediaPipe сразу, 5 — YOLO детекция объектов,\n6 — полный режим, 7 — DeepFace: идентификация людей из базы фотографий.\n\nДля распознавания знакомых лиц достаточно создать папку faces_db/ с подпапками по именам.",
+  "description": "Real-time computer vision through a regular webcam. Three frameworks in one tool — switch modes without restarting:\n\n1 — face mesh (468 points), 2 — hand tracking, 3 — body pose,\n4 — all of MediaPipe at once, 5 — YOLO object detection,\n6 — full mode, 7 — DeepFace: identifying people from a photo database.\n\nTo recognize known faces, just create a faces_db/ folder with subfolders named after each person.",
   "githubLink": "https://github.com/marensovich/HumanRecognition",
   "published": true,
   "order": 22
