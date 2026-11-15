@@ -1,0 +1,18 @@
+{
+  "title": "Minecraft Render Pipeline",
+  "slug": "minecraft-render-pipeline",
+  "year": 2026,
+  "category": "Minecraft",
+  "tags": [
+    "java",
+    "paper",
+    "spring-boot",
+    "docker",
+    "three.js",
+    "ffmpeg",
+    "discord"
+  ],
+  "description": "A distributed system for a Minecraft creative server.\n\nA player requests a render of their build in game; the pipeline turns the world region into a 3D scene, renders images and video and posts the result to Discord.\n\nWhat I built:\n— A game-server plugin that sends jobs to a central control service\n— One-shot workers in containers for world conversion, headless 3D rendering and media compression\n— Retries and duplicate-safe delivery when a network call fails halfway\n\nThe code is closed-source; I'm happy to walk through the architecture on a call.\n",
+  "published": true,
+  "order": 2
+}

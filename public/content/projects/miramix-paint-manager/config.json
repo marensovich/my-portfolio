@@ -1,0 +1,18 @@
+{
+  "title": "Miramix Paint Manager",
+  "slug": "miramix-paint-manager",
+  "year": 2026,
+  "category": "Services",
+  "tags": [
+    "java",
+    "spring-boot",
+    "postgresql",
+    "flutter",
+    "prometheus",
+    "grafana",
+    "docker"
+  ],
+  "description": "A product for car-paint shops, currently in development.\n\nThe mobile app looks up paint mixing formulas by colour code, scales them to the amount you need and keeps your own recipes.\n\nWhat I built:\n— Backend API with authentication, database migrations and integration tests\n— Cross-platform mobile app, Telegram and MAX bots, and a marketing site\n— Monitoring with metrics, dashboards and alerts\n\nThe code is closed-source; I'm happy to walk through the architecture on a call.\n",
+  "published": true,
+  "order": 1
+}
